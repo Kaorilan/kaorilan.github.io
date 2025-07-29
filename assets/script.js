@@ -63,8 +63,8 @@ function showSlide(index) {
 showSlide(currentSlideIndex);
 
 // Sélecteurs pour les flèches
-const arrowLeft = document.querySelector('.arrow .arrow_left');
-const arrowRight = document.querySelector('.arrow .arrow_right');
+const arrowLeft = document.querySelector('.arrow_left');
+const arrowRight = document.querySelector('.arrow_right');
 
 // Écouteurs pour les flèches (navigation)
 arrowLeft.addEventListener('click', () => {
