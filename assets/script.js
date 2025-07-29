@@ -68,11 +68,13 @@ const arrowRight = document.querySelector('.arrow .arrow_right');
 
 // Écouteurs pour les flèches (navigation)
 arrowLeft.addEventListener('click', () => {
+	console.log('Clique sur flèche gauche');
   currentSlideIndex = (currentSlideIndex - 1 + slides.length) % slides.length;
   showSlide(currentSlideIndex);
 });
 
 arrowRight.addEventListener('click', () => {
+	console.log('Clique sur flèche droite');
   currentSlideIndex = (currentSlideIndex + 1) % slides.length;
   showSlide(currentSlideIndex);
 });
